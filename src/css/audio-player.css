@@ -1,0 +1,33 @@
+.audio-player {
+  background-color: white;
+  width: 650px;
+  /* border: solid 2px gray; */
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 25px;
+  box-shadow: 10px 10px 15px rgb(0, 0, 0, 0.2);
+}
+
+#oscilloscope {
+  /* border: solid 2px gray; */
+  border-radius: 5px;
+}
+
+button {
+  border: solid 2px gray;
+  border-radius: 5px;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: gray;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+input {
+  margin-bottom: 10px;
+  color: black;
+}
